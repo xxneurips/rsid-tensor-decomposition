@@ -1,0 +1,272 @@
+{
+  "oneshot": {
+    "tr_resnet18_cifar10": {
+      "seed": 42,
+      "best_val_acc": 95.6,
+      "final_val_acc": 95.56,
+      "profile": {
+        "total_params": 4470346,
+        "total_params_m": 4.470346,
+        "trainable_params": 4470346,
+        "model_size_mb": 48.288641929626465,
+        "flops": 253793290,
+        "flops_m": 253.79329,
+        "gpu_latency_ms": 1.0782847926020622,
+        "cpu_latency_ms": 5.681295777321793,
+        "peak_memory_mb": 97.2119140625,
+        "throughput_gpu": 16176.333410034144
+      }
+    },
+    "tr_resnet18_cifar100": {
+      "seed": 42,
+      "best_val_acc": 79.69,
+      "final_val_acc": 79.57,
+      "profile": {
+        "total_params": 4516516,
+        "total_params_m": 4.516516,
+        "trainable_params": 4516516,
+        "model_size_mb": 48.464789390563965,
+        "flops": 253839460,
+        "flops_m": 253.83946,
+        "gpu_latency_ms": 1.091084797680378,
+        "cpu_latency_ms": 5.647395722917281,
+        "peak_memory_mb": 117.75048828125,
+        "throughput_gpu": 16224.775132066949
+      }
+    },
+    "tr_resnet50_cifar10": {
+      "seed": 42,
+      "best_val_acc": 97.2,
+      "final_val_acc": 97.12,
+      "profile": {
+        "total_params": 19381834,
+        "total_params_m": 19.381834,
+        "trainable_params": 19381834,
+        "model_size_mb": 105.72926807403564,
+        "flops": 1156239370,
+        "flops_m": 1156.23937,
+        "gpu_latency_ms": 3.11016960144043,
+        "cpu_latency_ms": 26.811354808160104,
+        "peak_memory_mb": 263.3984375,
+        "throughput_gpu": 4232.921312302475
+      }
+    },
+    "tr_resnet50_cifar100": {
+      "seed": 42,
+      "best_val_acc": 84.12,
+      "final_val_acc": 84.05,
+      "profile": {
+        "total_params": 19566244,
+        "total_params_m": 19.566244,
+        "trainable_params": 19566244,
+        "model_size_mb": 106.43275928497314,
+        "flops": 1156423780,
+        "flops_m": 1156.42378,
+        "gpu_latency_ms": 3.0755071938037872,
+        "cpu_latency_ms": 27.202698853216134,
+        "peak_memory_mb": 342.7734375,
+        "throughput_gpu": 4225.823113008455
+      }
+    },
+    "tr_mobilenetv2_cifar10": {
+      "seed": 42,
+      "best_val_acc": 93.19,
+      "final_val_acc": 93.19,
+      "profile": {
+        "total_params": 2678234,
+        "total_params_m": 2.678234,
+        "trainable_params": 2678234,
+        "model_size_mb": 10.487866401672363,
+        "flops": 27213322,
+        "flops_m": 27.213322,
+        "gpu_latency_ms": 1.626585602760315,
+        "cpu_latency_ms": 2.4016782408580184,
+        "peak_memory_mb": 49.57080078125,
+        "throughput_gpu": 19799.90062842226
+      }
+    },
+    "tr_mobilenetv2_cifar100": {
+      "seed": 42,
+      "best_val_acc": 74.97,
+      "final_val_acc": 74.68,
+      "profile": {
+        "total_params": 2793524,
+        "total_params_m": 2.793524,
+        "trainable_params": 2793524,
+        "model_size_mb": 10.927685737609863,
+        "flops": 27328612,
+        "flops_m": 27.328612,
+        "gpu_latency_ms": 1.6327040001749993,
+        "cpu_latency_ms": 2.410917615634389,
+        "peak_memory_mb": 60.8798828125,
+        "throughput_gpu": 19906.78608602925
+      }
+    },
+    "tr_efficientnet_b0_cifar10": {
+      "seed": 42,
+      "best_val_acc": 93.48,
+      "final_val_acc": 93.47,
+      "profile": {
+        "total_params": 4518094,
+        "total_params_m": 4.518094,
+        "trainable_params": 4518094,
+        "model_size_mb": 17.82955265045166,
+        "flops": 36036266,
+        "flops_m": 36.036266,
+        "gpu_latency_ms": 2.580185604095459,
+        "cpu_latency_ms": 3.8264206086751074,
+        "peak_memory_mb": 91.515625,
+        "throughput_gpu": 15110.259422922803
+      }
+    },
+    "tr_efficientnet_b0_cifar100": {
+      "seed": 42,
+      "best_val_acc": 76.67,
+      "final_val_acc": 76.5,
+      "profile": {
+        "total_params": 4633384,
+        "total_params_m": 4.633384,
+        "trainable_params": 4633384,
+        "model_size_mb": 18.26937198638916,
+        "flops": 36151556,
+        "flops_m": 36.151556,
+        "gpu_latency_ms": 2.605888006091118,
+        "cpu_latency_ms": 4.111281203222461,
+        "peak_memory_mb": 92.833984375,
+        "throughput_gpu": 15126.140340766111
+      }
+    }
+  },
+  "rsid": {
+    "tr_rsid_resnet18_cifar10": {
+      "seed": 42,
+      "final_val_acc": 95.66,
+      "stage_profiles": [
+        {
+          "stage": "original",
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.7005311995744705,
+          "cpu_latency_ms": 11.639832009677775,
+          "peak_memory_mb": 154.5205078125,
+          "throughput_gpu": 15035.826240582284
+        },
+        {
+          "stage": "stage_1",
+          "rank_ratio": 0.8,
+          "val_acc": 96.17,
+          "total_params": 11001098,
+          "total_params_m": 11.001098,
+          "trainable_params": 11001098,
+          "model_size_mb": 42.04384136199951,
+          "flops": 546264074,
+          "flops_m": 546.264074,
+          "gpu_latency_ms": 0.7873279981315136,
+          "cpu_latency_ms": 11.453830549726263,
+          "peak_memory_mb": 264.484375,
+          "throughput_gpu": 14575.378455010536
+        },
+        {
+          "stage": "stage_2",
+          "rank_ratio": 0.4,
+          "val_acc": 95.93,
+          "total_params": 5738762,
+          "total_params_m": 5.738762,
+          "trainable_params": 5738762,
+          "model_size_mb": 21.978827476501465,
+          "flops": 319157258,
+          "flops_m": 319.157258,
+          "gpu_latency_ms": 1.2779775962233544,
+          "cpu_latency_ms": 6.879308901261538,
+          "peak_memory_mb": 260.744140625,
+          "throughput_gpu": 13933.137392580982
+        },
+        {
+          "stage": "stage_3",
+          "rank_ratio": 0.3,
+          "val_acc": 95.66,
+          "total_params": 4470346,
+          "total_params_m": 4.470346,
+          "trainable_params": 4470346,
+          "model_size_mb": 17.140204429626465,
+          "flops": 253793290,
+          "flops_m": 253.79329,
+          "gpu_latency_ms": 1.0898048043251038,
+          "cpu_latency_ms": 5.728456526412629,
+          "peak_memory_mb": 272.88818359375,
+          "throughput_gpu": 16238.46653539938
+        }
+      ],
+      "total_time": 1456.0318694114685
+    },
+    "tr_rsid_resnet18_cifar100": {
+      "seed": 42,
+      "final_val_acc": 80.34,
+      "stage_profiles": [
+        {
+          "stage": "original",
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6975871995091438,
+          "cpu_latency_ms": 11.174894505529664,
+          "peak_memory_mb": 260.712890625,
+          "throughput_gpu": 14722.994896635762
+        },
+        {
+          "stage": "stage_1",
+          "rank_ratio": 0.8,
+          "val_acc": 82.8,
+          "total_params": 11047268,
+          "total_params_m": 11.047268,
+          "trainable_params": 11047268,
+          "model_size_mb": 42.21998882293701,
+          "flops": 546310244,
+          "flops_m": 546.310244,
+          "gpu_latency_ms": 0.7610623978078366,
+          "cpu_latency_ms": 11.069421045249328,
+          "peak_memory_mb": 390.60888671875,
+          "throughput_gpu": 14655.633780167396
+        },
+        {
+          "stage": "stage_2",
+          "rank_ratio": 0.4,
+          "val_acc": 81.2,
+          "total_params": 5784932,
+          "total_params_m": 5.784932,
+          "trainable_params": 5784932,
+          "model_size_mb": 22.154974937438965,
+          "flops": 319203428,
+          "flops_m": 319.203428,
+          "gpu_latency_ms": 1.2489983975887298,
+          "cpu_latency_ms": 6.837093562353402,
+          "peak_memory_mb": 386.3173828125,
+          "throughput_gpu": 13985.287631935204
+        },
+        {
+          "stage": "stage_3",
+          "rank_ratio": 0.36,
+          "val_acc": 80.34,
+          "total_params": 5078948,
+          "total_params_m": 5.078948,
+          "trainable_params": 5078948,
+          "model_size_mb": 19.461859703063965,
+          "flops": 269105252,
+          "flops_m": 269.105252,
+          "gpu_latency_ms": 1.3150975987315179,
+          "cpu_latency_ms": 5.956259425147437,
+          "peak_memory_mb": 404.58056640625,
+          "throughput_gpu": 14271.734062852769
+        }
+      ],
+      "total_time": 1481.2678961753845
+    }
+  }
+}

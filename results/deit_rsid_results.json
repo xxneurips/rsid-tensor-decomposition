@@ -1,0 +1,28 @@
+{
+  "configs": [
+    {
+      "seed": 42,
+      "rank_ratio": 0.4,
+      "oneshot_acc": 76.03,
+      "oneshot_params": 3073828,
+      "rsid_acc": 75.7,
+      "rsid_params": 3073828
+    },
+    {
+      "seed": 42,
+      "rank_ratio": 0.3,
+      "oneshot_acc": 69.02,
+      "oneshot_params": 2373412,
+      "rsid_acc": 68.85,
+      "rsid_params": 2373412
+    },
+    {
+      "seed": 42,
+      "rank_ratio": 0.2,
+      "oneshot_acc": 53.8,
+      "oneshot_params": 1672996,
+      "rsid_acc": 54.45,
+      "rsid_params": 1672996
+    }
+  ]
+}

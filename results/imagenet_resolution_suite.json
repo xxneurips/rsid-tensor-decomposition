@@ -1,0 +1,296 @@
+{
+  "oneshot_resnet18_imagenette": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_tucker",
+        "best_val_acc": 96.2547770700637,
+        "final_val_acc": 96.12738853503184,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      },
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "best_val_acc": 96.40764331210191,
+        "final_val_acc": 96.35668789808918,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "best_val_acc": 96.30573248407643,
+        "final_val_acc": 96.2547770700637,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      }
+    ],
+    "accuracy": {
+      "mean": 96.32271762208067,
+      "std": 0.06355256707896258,
+      "values": [
+        96.2547770700637,
+        96.40764331210191,
+        96.30573248407643
+      ],
+      "n_seeds": 3
+    }
+  },
+  "rsid_resnet18_imagenette": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_tucker",
+        "best_val_acc": 97.96178343949045,
+        "final_val_acc": 95.38853503184713,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "best_val_acc": 98.01273885350318,
+        "final_val_acc": 95.56687898089172,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "best_val_acc": 98.06369426751593,
+        "final_val_acc": 95.49044585987261,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 98.0127388535032,
+      "std": 0.041604921321159456,
+      "values": [
+        97.96178343949045,
+        98.01273885350318,
+        98.06369426751593
+      ],
+      "n_seeds": 3
+    }
+  },
+  "struct_resnet18_imagenette": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 94.95541401273886,
+        "final_val_acc": 94.80254777070064,
+        "pre_ft_acc": 10.751592356687897,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      },
+      {
+        "seed": 7,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 95.0828025477707,
+        "final_val_acc": 95.00636942675159,
+        "pre_ft_acc": 10.751592356687897,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      },
+      {
+        "seed": 11,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 94.98089171974522,
+        "final_val_acc": 94.70063694267516,
+        "pre_ft_acc": 10.751592356687897,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      }
+    ],
+    "accuracy": {
+      "mean": 95.00636942675159,
+      "std": 0.055038137566095095,
+      "values": [
+        94.95541401273886,
+        95.0828025477707,
+        94.98089171974522
+      ],
+      "n_seeds": 3
+    }
+  },
+  "oneshot_resnet18_imagewoof": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_tucker",
+        "best_val_acc": 89.92109951641639,
+        "final_val_acc": 89.69203359633495,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      },
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "best_val_acc": 89.64113005853906,
+        "final_val_acc": 89.4629676762535,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "best_val_acc": 89.48841944515144,
+        "final_val_acc": 89.48841944515144,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs": 30
+      }
+    ],
+    "accuracy": {
+      "mean": 89.68354967336897,
+      "std": 0.17916952644390421,
+      "values": [
+        89.92109951641639,
+        89.64113005853906,
+        89.48841944515144
+      ],
+      "n_seeds": 3
+    }
+  },
+  "rsid_resnet18_imagewoof": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_tucker",
+        "best_val_acc": 92.89895647747518,
+        "final_val_acc": 88.41944515143803,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "best_val_acc": 92.8480529396793,
+        "final_val_acc": 88.31763807584628,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "best_val_acc": 92.87350470857724,
+        "final_val_acc": 88.29218630694834,
+        "params_m": 1.95833,
+        "flops_m": null,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 92.87350470857724,
+      "std": 0.020781282283728733,
+      "values": [
+        92.89895647747518,
+        92.8480529396793,
+        92.87350470857724
+      ],
+      "n_seeds": 3
+    }
+  },
+  "struct_resnet18_imagewoof": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 89.51387121404937,
+        "final_val_acc": 89.41206413845762,
+        "pre_ft_acc": 11.300585390684653,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      },
+      {
+        "seed": 7,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 89.15754644947823,
+        "final_val_acc": 89.08119114278442,
+        "pre_ft_acc": 11.300585390684653,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      },
+      {
+        "seed": 11,
+        "method": "structured_prune",
+        "prune_ratio": 0.5,
+        "best_val_acc": 89.28480529396793,
+        "final_val_acc": 89.0048358360906,
+        "pre_ft_acc": 11.300585390684653,
+        "total_params": 11181642,
+        "effective_params": 4118346,
+        "epochs": 30
+      }
+    ],
+    "accuracy": {
+      "mean": 89.31874098583187,
+      "std": 0.14743486211065465,
+      "values": [
+        89.51387121404937,
+        89.15754644947823,
+        89.28480529396793
+      ],
+      "n_seeds": 3
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "oneshot_deit_small_imagenet": {
+    "per_seed": [
+      {
+        "seed": 42,
+        "method": "oneshot_svd",
+        "teacher_acc": 79.714,
+        "rank_ratio": 0.3,
+        "best_val_acc": 68.222,
+        "final_val_acc": 68.222,
+        "params_m": 9.369448,
+        "epochs": 5
+      },
+      {
+        "seed": 123,
+        "method": "oneshot_svd",
+        "teacher_acc": 79.714,
+        "rank_ratio": 0.3,
+        "best_val_acc": 68.21,
+        "final_val_acc": 68.21,
+        "params_m": 9.369448,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 68.216,
+      "std": 0.006000000000000227,
+      "values": [
+        68.222,
+        68.21
+      ],
+      "n_seeds": 2
+    }
+  },
+  "rsid_deit_small_imagenet": {
+    "per_seed": [
+      {
+        "seed": 42,
+        "method": "rsid_svd",
+        "teacher_acc": 79.714,
+        "schedule": [
+          0.6,
+          0.42,
+          0.3
+        ],
+        "best_val_acc": 77.708,
+        "final_val_acc": 68.626,
+        "final_stage_best_val_acc": 68.626,
+        "final_stage_final_val_acc": 68.626,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.6,
+            "val_acc_per_epoch": [
+              77.104,
+              76.98,
+              77.38,
+              77.468,
+              77.708
+            ],
+            "best_val_acc": 77.708,
+            "final_val_acc": 77.708,
+            "params": 17488744
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.42,
+            "val_acc_per_epoch": [
+              72.15,
+              72.638,
+              73.064,
+              73.788,
+              74.27
+            ],
+            "best_val_acc": 74.27,
+            "final_val_acc": 74.27,
+            "params": 12760936
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              63.322,
+              65.56,
+              66.71,
+              67.852,
+              68.626
+            ],
+            "best_val_acc": 68.626,
+            "final_val_acc": 68.626,
+            "params": 9369448
+          }
+        ],
+        "params_m": 9.369448,
+        "epochs_per_stage": 5,
+        "n_stages": 3
+      },
+      {
+        "seed": 123,
+        "method": "rsid_svd",
+        "teacher_acc": 79.714,
+        "schedule": [
+          0.6,
+          0.42,
+          0.3
+        ],
+        "best_val_acc": 77.804,
+        "final_val_acc": 68.596,
+        "final_stage_best_val_acc": 68.596,
+        "final_stage_final_val_acc": 68.596,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.6,
+            "val_acc_per_epoch": [
+              77.002,
+              77.056,
+              77.21,
+              77.536,
+              77.804
+            ],
+            "best_val_acc": 77.804,
+            "final_val_acc": 77.804,
+            "params": 17488744
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.42,
+            "val_acc_per_epoch": [
+              72.138,
+              72.702,
+              73.204,
+              73.644,
+              74.334
+            ],
+            "best_val_acc": 74.334,
+            "final_val_acc": 74.334,
+            "params": 12760936
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              63.322,
+              65.482,
+              66.644,
+              67.672,
+              68.596
+            ],
+            "best_val_acc": 68.596,
+            "final_val_acc": 68.596,
+            "params": 9369448
+          }
+        ],
+        "params_m": 9.369448,
+        "epochs_per_stage": 5,
+        "n_stages": 3
+      }
+    ],
+    "accuracy": {
+      "mean": 77.756,
+      "std": 0.04800000000000182,
+      "values": [
+        77.708,
+        77.804
+      ],
+      "n_seeds": 2
+    }
+  }
+}

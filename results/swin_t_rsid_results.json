@@ -1,0 +1,58 @@
+{
+  "configs": [
+    {
+      "seed": 0,
+      "rank_ratio": 0.5,
+      "oneshot_acc": 84.86,
+      "oneshot_params": 18583006,
+      "rsid_acc": 84.5,
+      "rsid_params": 18583006,
+      "delta_pp": -0.35999999999999943
+    },
+    {
+      "seed": 0,
+      "rank_ratio": 0.3,
+      "oneshot_acc": 76.92,
+      "oneshot_params": 11267422,
+      "rsid_acc": 77.1,
+      "rsid_params": 11267422,
+      "delta_pp": 0.1799999999999926
+    },
+    {
+      "seed": 1,
+      "rank_ratio": 0.5,
+      "oneshot_acc": 85.1,
+      "oneshot_params": 18583006,
+      "rsid_acc": 84.52,
+      "rsid_params": 18583006,
+      "delta_pp": -0.5799999999999983
+    },
+    {
+      "seed": 1,
+      "rank_ratio": 0.3,
+      "oneshot_acc": 77.2,
+      "oneshot_params": 11267422,
+      "rsid_acc": 76.66,
+      "rsid_params": 11267422,
+      "delta_pp": -0.5400000000000063
+    },
+    {
+      "seed": 2,
+      "rank_ratio": 0.5,
+      "oneshot_acc": 85.21,
+      "oneshot_params": 18583006,
+      "rsid_acc": 84.72,
+      "rsid_params": 18583006,
+      "delta_pp": -0.4899999999999949
+    },
+    {
+      "seed": 2,
+      "rank_ratio": 0.3,
+      "oneshot_acc": 77.29,
+      "oneshot_params": 11267422,
+      "rsid_acc": 77.21,
+      "rsid_params": 11267422,
+      "delta_pp": -0.0800000000000125
+    }
+  ]
+}

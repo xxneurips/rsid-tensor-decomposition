@@ -1,0 +1,293 @@
+{
+  "oneshot_resnet50_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_tucker",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 13.416,
+        "best_val_acc": 67.494,
+        "final_val_acc": 60.34,
+        "params_m": 19.027341,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 13.416,
+        "best_val_acc": 67.626,
+        "final_val_acc": 60.306,
+        "params_m": 19.027341,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 13.416,
+        "best_val_acc": 67.568,
+        "final_val_acc": 60.24,
+        "params_m": 19.027341,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 67.56266666666666,
+      "std": 0.05402057221302294,
+      "values": [
+        67.494,
+        67.626,
+        67.568
+      ],
+      "n_seeds": 3
+    }
+  },
+  "rsid_resnet50_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_tucker",
+        "teacher_acc": 76.146,
+        "best_val_acc": 72.538,
+        "final_val_acc": 69.71,
+        "final_stage_best_val_acc": 70.346,
+        "final_stage_final_val_acc": 69.71,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              72.538,
+              69.316,
+              66.428,
+              65.214,
+              65.092
+            ],
+            "best_val_acc": 72.538,
+            "final_val_acc": 65.092,
+            "params": 35397241
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              72.052,
+              71.874,
+              71.674,
+              71.382,
+              71.484
+            ],
+            "best_val_acc": 72.052,
+            "final_val_acc": 71.484,
+            "params": 25532652
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              70.024,
+              70.346,
+              69.808,
+              69.508,
+              69.71
+            ],
+            "best_val_acc": 70.346,
+            "final_val_acc": 69.71,
+            "params": 19027341
+          }
+        ],
+        "params_m": 19.027341,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "teacher_acc": 76.146,
+        "best_val_acc": 72.724,
+        "final_val_acc": 69.704,
+        "final_stage_best_val_acc": 70.178,
+        "final_stage_final_val_acc": 69.704,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              72.724,
+              69.258,
+              66.802,
+              65.222,
+              65.088
+            ],
+            "best_val_acc": 72.724,
+            "final_val_acc": 65.088,
+            "params": 35397241
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              72.008,
+              72.058,
+              71.814,
+              71.376,
+              71.556
+            ],
+            "best_val_acc": 72.058,
+            "final_val_acc": 71.556,
+            "params": 25532652
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              70.096,
+              70.178,
+              69.816,
+              69.642,
+              69.704
+            ],
+            "best_val_acc": 70.178,
+            "final_val_acc": 69.704,
+            "params": 19027341
+          }
+        ],
+        "params_m": 19.027341,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "teacher_acc": 76.146,
+        "best_val_acc": 72.892,
+        "final_val_acc": 69.596,
+        "final_stage_best_val_acc": 70.184,
+        "final_stage_final_val_acc": 69.596,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              72.892,
+              69.416,
+              66.534,
+              65.332,
+              65.144
+            ],
+            "best_val_acc": 72.892,
+            "final_val_acc": 65.144,
+            "params": 35397241
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              71.972,
+              72.128,
+              71.654,
+              71.42,
+              71.486
+            ],
+            "best_val_acc": 72.128,
+            "final_val_acc": 71.486,
+            "params": 25532652
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              69.812,
+              70.184,
+              69.86,
+              69.384,
+              69.596
+            ],
+            "best_val_acc": 70.184,
+            "final_val_acc": 69.596,
+            "params": 19027341
+          }
+        ],
+        "params_m": 19.027341,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 72.718,
+      "std": 0.1445821565754223,
+      "values": [
+        72.538,
+        72.724,
+        72.892
+      ],
+      "n_seeds": 3
+    }
+  },
+  "struct_resnet50_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "structured_prune",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 0.842,
+        "prune_ratio": 0.5,
+        "best_val_acc": 69.75,
+        "final_val_acc": 66.38,
+        "total_params": 25557032,
+        "effective_params": 19894632,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "structured_prune",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 0.842,
+        "prune_ratio": 0.5,
+        "best_val_acc": 69.67,
+        "final_val_acc": 66.314,
+        "total_params": 25557032,
+        "effective_params": 19894632,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "structured_prune",
+        "teacher_acc": 76.146,
+        "pre_ft_acc": 0.842,
+        "prune_ratio": 0.5,
+        "best_val_acc": 69.832,
+        "final_val_acc": 66.48,
+        "total_params": 25557032,
+        "effective_params": 19894632,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 69.75066666666667,
+      "std": 0.06613790306792154,
+      "values": [
+        69.75,
+        69.67,
+        69.832
+      ],
+      "n_seeds": 3
+    }
+  }
+}

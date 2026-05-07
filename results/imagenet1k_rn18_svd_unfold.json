@@ -1,0 +1,97 @@
+{
+  "oneshot_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_svd_unfold",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.608,
+        "best_val_acc": 58.398,
+        "final_val_acc": 53.244,
+        "params_m": 4.448936,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 58.398,
+      "std": 0.0,
+      "values": [
+        58.398
+      ],
+      "n_seeds": 1
+    }
+  },
+  "rsid_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_svd_unfold",
+        "teacher_acc": 69.758,
+        "best_val_acc": 65.608,
+        "final_val_acc": 63.922,
+        "final_stage_best_val_acc": 63.922,
+        "final_stage_final_val_acc": 63.922,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              64.956,
+              62.046,
+              59.806,
+              59.274,
+              59.61
+            ],
+            "best_val_acc": 64.956,
+            "final_val_acc": 59.61,
+            "params": 7855144
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              63.62,
+              63.83,
+              64.334,
+              64.85,
+              65.608
+            ],
+            "best_val_acc": 65.608,
+            "final_val_acc": 65.608,
+            "params": 5877480
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              60.45,
+              61.396,
+              62.296,
+              63.226,
+              63.922
+            ],
+            "best_val_acc": 63.922,
+            "final_val_acc": 63.922,
+            "params": 4448936
+          }
+        ],
+        "params_m": 4.448936,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 65.608,
+      "std": 0.0,
+      "values": [
+        65.608
+      ],
+      "n_seeds": 1
+    }
+  }
+}

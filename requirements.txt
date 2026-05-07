@@ -1,0 +1,15 @@
+# RSID: Rank-Scheduled Iterative Distillation
+# Core dependencies
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Tensor Decomposition
+tensorly>=0.8.0
+
+# Profiling & Analysis
+ptflops>=0.7.0
+matplotlib>=3.7.0
+

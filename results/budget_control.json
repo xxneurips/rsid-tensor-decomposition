@@ -1,0 +1,55 @@
+{
+  "oneshot_tucker_resnet18_cifar100_e150_r0.3": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar100",
+      "method": "tucker",
+      "rank_ratio": 0.3,
+      "epochs": 150
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 79.47,
+        "final_val_acc": 79.32,
+        "epochs": 150
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 79.25,
+        "final_val_acc": 79.05,
+        "epochs": 150
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 79.06,
+        "final_val_acc": 78.88,
+        "epochs": 150
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 79.38,
+        "final_val_acc": 79.38,
+        "epochs": 150
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 79.43,
+        "final_val_acc": 79.39,
+        "epochs": 150
+      }
+    ],
+    "accuracy": {
+      "mean": 79.318,
+      "std": 0.14878171930717796,
+      "values": [
+        79.47,
+        79.25,
+        79.06,
+        79.38,
+        79.43
+      ],
+      "n_seeds": 5
+    }
+  }
+}

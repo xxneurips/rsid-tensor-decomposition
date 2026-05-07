@@ -1,0 +1,52 @@
+{
+  "depgraph_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "depgraph",
+        "teacher_acc": 69.764,
+        "pre_ft_acc": 0.092,
+        "best_val_acc": 15.324,
+        "final_val_acc": 15.324,
+        "params_m": 3.05588,
+        "macs_m": 487.202536,
+        "epochs": 5,
+        "prune_ratio": 0.5
+      },
+      {
+        "seed": 7,
+        "method": "depgraph",
+        "teacher_acc": 69.764,
+        "pre_ft_acc": 0.092,
+        "best_val_acc": 12.786,
+        "final_val_acc": 12.786,
+        "params_m": 3.05588,
+        "macs_m": 487.202536,
+        "epochs": 5,
+        "prune_ratio": 0.5
+      },
+      {
+        "seed": 11,
+        "method": "depgraph",
+        "teacher_acc": 69.764,
+        "pre_ft_acc": 0.092,
+        "best_val_acc": 10.462,
+        "final_val_acc": 10.462,
+        "params_m": 3.05588,
+        "macs_m": 487.202536,
+        "epochs": 5,
+        "prune_ratio": 0.5
+      }
+    ],
+    "accuracy": {
+      "mean": 12.857333333333335,
+      "std": 2.4317848040756678,
+      "values": [
+        15.324,
+        12.786,
+        10.462
+      ],
+      "n_seeds": 3
+    }
+  }
+}

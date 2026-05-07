@@ -1,0 +1,970 @@
+{
+  "prune_resnet18_cifar10_s70": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar10",
+      "sparsity": 0.7
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 96.12,
+        "final_val_acc": 96.1,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6802944019436836,
+          "cpu_latency_ms": 9.722236514789984,
+          "peak_memory_mb": 158.55859375,
+          "throughput_gpu": 15039.630957536741,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 96.17,
+        "final_val_acc": 96.08,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6863615997135639,
+          "cpu_latency_ms": 9.96778387343511,
+          "peak_memory_mb": 157.8759765625,
+          "throughput_gpu": 14971.670902480966,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 96.06,
+        "final_val_acc": 96.0,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.687987195700407,
+          "cpu_latency_ms": 10.810036241309717,
+          "peak_memory_mb": 202.98583984375,
+          "throughput_gpu": 15040.122327230163,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 96.14,
+        "final_val_acc": 96.02,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6943872019648551,
+          "cpu_latency_ms": 9.856559539912269,
+          "peak_memory_mb": 244.2880859375,
+          "throughput_gpu": 14990.033677260299,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 96.17,
+        "final_val_acc": 96.1,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.69733120277524,
+          "cpu_latency_ms": 9.810173913137987,
+          "peak_memory_mb": 289.34033203125,
+          "throughput_gpu": 15057.27681425092,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 96.132,
+      "std": 0.0406939798987512,
+      "values": [
+        96.12,
+        96.17,
+        96.06,
+        96.14,
+        96.17
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet18_cifar10_s82": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar10",
+      "sparsity": 0.82
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 96.2,
+        "final_val_acc": 96.12,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6957055985927582,
+          "cpu_latency_ms": 9.834014170337468,
+          "peak_memory_mb": 331.392578125,
+          "throughput_gpu": 14972.519818790983,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 96.2,
+        "final_val_acc": 96.15,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6866815976798535,
+          "cpu_latency_ms": 9.835840610321611,
+          "peak_memory_mb": 376.69482421875,
+          "throughput_gpu": 14973.91984060284,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 96.14,
+        "final_val_acc": 96.11,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6843519955873489,
+          "cpu_latency_ms": 10.128355032065883,
+          "peak_memory_mb": 200.73583984375,
+          "throughput_gpu": 14896.378504245713,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 96.07,
+        "final_val_acc": 96.01,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.7159935966134071,
+          "cpu_latency_ms": 9.975547291105613,
+          "peak_memory_mb": 246.35546875,
+          "throughput_gpu": 14994.969164610442,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 96.18,
+        "final_val_acc": 96.18,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6852479986846447,
+          "cpu_latency_ms": 9.962848067516461,
+          "peak_memory_mb": 289.09033203125,
+          "throughput_gpu": 14927.252188018254,
+          "effective_nonzero_params": 11173962,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 96.158,
+      "std": 0.04915282290978201,
+      "values": [
+        96.2,
+        96.2,
+        96.14,
+        96.07,
+        96.18
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet18_cifar100_s70": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar100",
+      "sparsity": 0.7
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 82.38,
+        "final_val_acc": 82.03,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6924159988760948,
+          "cpu_latency_ms": 9.653595101553947,
+          "peak_memory_mb": 333.044921875,
+          "throughput_gpu": 15084.101046313863,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 82.5,
+        "final_val_acc": 82.05,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6959616012871266,
+          "cpu_latency_ms": 10.42536276509054,
+          "peak_memory_mb": 378.64794921875,
+          "throughput_gpu": 15007.430337777343,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 82.33,
+        "final_val_acc": 82.1,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.690956799685955,
+          "cpu_latency_ms": 9.966591489501297,
+          "peak_memory_mb": 420.767578125,
+          "throughput_gpu": 14953.013417552458,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 82.51,
+        "final_val_acc": 82.39,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6930303983390331,
+          "cpu_latency_ms": 9.994017396820709,
+          "peak_memory_mb": 245.5654296875,
+          "throughput_gpu": 15005.041425010879,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 82.33,
+        "final_val_acc": 82.28,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6975616008043289,
+          "cpu_latency_ms": 9.936220129020512,
+          "peak_memory_mb": 290.29345703125,
+          "throughput_gpu": 15008.172858345992,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 82.41,
+      "std": 0.07974960814950985,
+      "values": [
+        82.38,
+        82.5,
+        82.33,
+        82.51,
+        82.33
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet18_cifar100_s82": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar100",
+      "sparsity": 0.82
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 82.06,
+        "final_val_acc": 81.91,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6911359980702401,
+          "cpu_latency_ms": 10.01095343963243,
+          "peak_memory_mb": 333.521484375,
+          "throughput_gpu": 15091.906797888541,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 82.08,
+        "final_val_acc": 81.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6948608011007309,
+          "cpu_latency_ms": 9.968045284040272,
+          "peak_memory_mb": 376.78271484375,
+          "throughput_gpu": 14939.619763135353,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 82.26,
+        "final_val_acc": 82.16,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6912511982023716,
+          "cpu_latency_ms": 9.875835618004203,
+          "peak_memory_mb": 420.7607421875,
+          "throughput_gpu": 15049.823315415886,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 82.08,
+        "final_val_acc": 82.0,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.708428805321455,
+          "cpu_latency_ms": 10.319025226635858,
+          "peak_memory_mb": 464.48876953125,
+          "throughput_gpu": 15089.517979148111,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 82.21,
+        "final_val_acc": 82.01,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.7013375997543335,
+          "cpu_latency_ms": 9.99057330773212,
+          "peak_memory_mb": 289.63671875,
+          "throughput_gpu": 15032.967961934417,
+          "effective_nonzero_params": 11220132,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 82.13799999999999,
+      "std": 0.08109253973085365,
+      "values": [
+        82.06,
+        82.08,
+        82.26,
+        82.08,
+        82.21
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet50_cifar10_s70": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar10",
+      "sparsity": 0.7
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 97.46,
+        "final_val_acc": 97.38,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0715519964694975,
+          "cpu_latency_ms": 26.05089795542881,
+          "peak_memory_mb": 305.4453125,
+          "throughput_gpu": 4587.282590799219,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 97.49,
+        "final_val_acc": 97.46,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 1.9212160006165504,
+          "cpu_latency_ms": 28.433491272153333,
+          "peak_memory_mb": 306.5703125,
+          "throughput_gpu": 3709.8851562307113,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 97.58,
+        "final_val_acc": 97.58,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 3.1365760058164596,
+          "cpu_latency_ms": 29.214230424258858,
+          "peak_memory_mb": 400.53125,
+          "throughput_gpu": 3187.3853282378877,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 97.48,
+        "final_val_acc": 97.45,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.100403194129467,
+          "cpu_latency_ms": 28.783950401702896,
+          "peak_memory_mb": 402.40625,
+          "throughput_gpu": 3703.5770839126035,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 97.52,
+        "final_val_acc": 97.43,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 1.9517056033015252,
+          "cpu_latency_ms": 28.951851883903146,
+          "peak_memory_mb": 496.6171875,
+          "throughput_gpu": 3764.516634922115,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 97.506,
+      "std": 0.041761226035642605,
+      "values": [
+        97.46,
+        97.49,
+        97.58,
+        97.48,
+        97.52
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet50_cifar10_s82": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar10",
+      "sparsity": 0.82
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 97.42,
+        "final_val_acc": 97.37,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0348416015505792,
+          "cpu_latency_ms": 28.953567350981757,
+          "peak_memory_mb": 498.39794921875,
+          "throughput_gpu": 3697.531348726622,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 97.46,
+        "final_val_acc": 97.42,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 1.8824959963560104,
+          "cpu_latency_ms": 28.78855974995531,
+          "peak_memory_mb": 587.328125,
+          "throughput_gpu": 3788.3236829680545,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 97.4,
+        "final_val_acc": 97.4,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 1.9654528096318244,
+          "cpu_latency_ms": 29.643359943293035,
+          "peak_memory_mb": 589.328125,
+          "throughput_gpu": 3325.891244358909,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 97.44,
+        "final_val_acc": 97.37,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.01169241219759,
+          "cpu_latency_ms": 29.477516829501837,
+          "peak_memory_mb": 683.2890625,
+          "throughput_gpu": 3308.331242293091,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 97.5,
+        "final_val_acc": 97.44,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0993280082941057,
+          "cpu_latency_ms": 26.84350186609663,
+          "peak_memory_mb": 683.5390625,
+          "throughput_gpu": 4605.305645800038,
+          "effective_nonzero_params": 23520842,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 97.44399999999999,
+      "std": 0.03440930106816829,
+      "values": [
+        97.42,
+        97.46,
+        97.4,
+        97.44,
+        97.5
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet50_cifar100_s70": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar100",
+      "sparsity": 0.7
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 84.46,
+        "final_val_acc": 84.34,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0932735919952394,
+          "cpu_latency_ms": 27.87596281268634,
+          "peak_memory_mb": 776.609375,
+          "throughput_gpu": 4610.151724000343,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 84.53,
+        "final_val_acc": 84.53,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0750463992357253,
+          "cpu_latency_ms": 27.037751395255327,
+          "peak_memory_mb": 779.359375,
+          "throughput_gpu": 4614.504405914994,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 84.7,
+        "final_val_acc": 84.7,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.078527992963791,
+          "cpu_latency_ms": 26.53192784055136,
+          "peak_memory_mb": 871.5234375,
+          "throughput_gpu": 4604.97383154694,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 84.4,
+        "final_val_acc": 84.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0782975912094117,
+          "cpu_latency_ms": 26.574672752758488,
+          "peak_memory_mb": 872.5234375,
+          "throughput_gpu": 4611.25502134764,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 84.46,
+        "final_val_acc": 84.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0639615923166277,
+          "cpu_latency_ms": 26.672179461456835,
+          "peak_memory_mb": 964.1875,
+          "throughput_gpu": 4611.768988827424,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.7
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 84.51,
+      "std": 0.10353743284435936,
+      "values": [
+        84.46,
+        84.53,
+        84.7,
+        84.4,
+        84.46
+      ],
+      "n_seeds": 5
+    }
+  },
+  "prune_resnet50_cifar100_s82": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar100",
+      "sparsity": 0.82
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "best_val_acc": 84.12,
+        "final_val_acc": 84.0,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0757760047912597,
+          "cpu_latency_ms": 26.448550692293793,
+          "peak_memory_mb": 965.1875,
+          "throughput_gpu": 4600.546732150315,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 7,
+        "best_val_acc": 84.17,
+        "final_val_acc": 84.1,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0634752064943314,
+          "cpu_latency_ms": 26.672158302972093,
+          "peak_memory_mb": 1058.3515625,
+          "throughput_gpu": 4612.622236751444,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 11,
+        "best_val_acc": 84.26,
+        "final_val_acc": 84.02,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0824447840452196,
+          "cpu_latency_ms": 26.902389276074246,
+          "peak_memory_mb": 1058.3515625,
+          "throughput_gpu": 4606.671934133377,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 42,
+        "best_val_acc": 84.05,
+        "final_val_acc": 83.98,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0516352146863936,
+          "cpu_latency_ms": 26.610490633174777,
+          "peak_memory_mb": 1150.015625,
+          "throughput_gpu": 4606.468346925258,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      },
+      {
+        "seed": 123,
+        "best_val_acc": 83.99,
+        "final_val_acc": 83.92,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0897407948970796,
+          "cpu_latency_ms": 26.588851906126365,
+          "peak_memory_mb": 1152.765625,
+          "throughput_gpu": 4616.746342135272,
+          "effective_nonzero_params": 23705252,
+          "effective_sparsity": 0.0,
+          "target_sparsity": 0.82
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 84.11800000000001,
+      "std": 0.09368030742904652,
+      "values": [
+        84.12,
+        84.17,
+        84.26,
+        84.05,
+        83.99
+      ],
+      "n_seeds": 5
+    }
+  }
+}

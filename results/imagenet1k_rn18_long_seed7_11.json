@@ -1,0 +1,200 @@
+{
+  "oneshot_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 53.754,
+        "final_val_acc": 22.132,
+        "params_m": 2.4662,
+        "epochs": 30
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 54.066,
+        "final_val_acc": 22.166,
+        "params_m": 2.4662,
+        "epochs": 30
+      }
+    ],
+    "accuracy": {
+      "mean": 53.91,
+      "std": 0.15600000000000236,
+      "values": [
+        53.754,
+        54.066
+      ],
+      "n_seeds": 2
+    }
+  },
+  "rsid_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "teacher_acc": 69.758,
+        "best_val_acc": 63.5,
+        "final_val_acc": 58.676,
+        "final_stage_best_val_acc": 58.676,
+        "final_stage_final_val_acc": 58.676,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              63.5,
+              59.226,
+              54.88,
+              51.388,
+              47.724,
+              44.848,
+              42.932,
+              42.796,
+              42.874,
+              42.934
+            ],
+            "best_val_acc": 63.5,
+            "final_val_acc": 42.934,
+            "params": 5812629
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              60.308,
+              60.696,
+              60.72,
+              60.728,
+              59.696,
+              59.492,
+              59.604,
+              59.792,
+              59.962,
+              60.206
+            ],
+            "best_val_acc": 60.728,
+            "final_val_acc": 60.206,
+            "params": 3675900
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              55.972,
+              56.942,
+              57.808,
+              58.13,
+              57.48,
+              57.42,
+              57.814,
+              58.226,
+              58.492,
+              58.676
+            ],
+            "best_val_acc": 58.676,
+            "final_val_acc": 58.676,
+            "params": 2466200
+          }
+        ],
+        "params_m": 2.4662,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "teacher_acc": 69.758,
+        "best_val_acc": 63.638,
+        "final_val_acc": 58.59,
+        "final_stage_best_val_acc": 58.59,
+        "final_stage_final_val_acc": 58.59,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              63.638,
+              59.234,
+              55.028,
+              51.15,
+              47.354,
+              44.98,
+              43.488,
+              42.63,
+              42.77,
+              42.918
+            ],
+            "best_val_acc": 63.638,
+            "final_val_acc": 42.918,
+            "params": 5812629
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              60.434,
+              60.584,
+              60.78,
+              60.748,
+              59.714,
+              59.096,
+              59.298,
+              59.634,
+              59.992,
+              60.22
+            ],
+            "best_val_acc": 60.78,
+            "final_val_acc": 60.22,
+            "params": 3675900
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              56.17,
+              57.33,
+              57.786,
+              58.086,
+              57.508,
+              57.394,
+              57.588,
+              58.108,
+              58.38,
+              58.59
+            ],
+            "best_val_acc": 58.59,
+            "final_val_acc": 58.59,
+            "params": 2466200
+          }
+        ],
+        "params_m": 2.4662,
+        "epochs_per_stage": 10,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 63.569,
+      "std": 0.06899999999999906,
+      "values": [
+        63.5,
+        63.638
+      ],
+      "n_seeds": 2
+    }
+  }
+}

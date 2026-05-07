@@ -1,0 +1,1010 @@
+{
+  "quant_resnet18_cifar10_int8": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar10",
+      "bits": 8
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 8,
+        "fp32_acc": 95.97,
+        "best_val_acc": 95.97,
+        "final_val_acc": 95.97,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6735744006931782,
+          "cpu_latency_ms": 10.3464740968775,
+          "peak_memory_mb": 105.30419921875,
+          "throughput_gpu": 15160.236764470912,
+          "quantized_size_mb": 10.656320571899414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 8,
+        "fp32_acc": 95.97,
+        "best_val_acc": 95.97,
+        "final_val_acc": 95.97,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6812927968800068,
+          "cpu_latency_ms": 10.188877524342388,
+          "peak_memory_mb": 150.6064453125,
+          "throughput_gpu": 15178.080386495263,
+          "quantized_size_mb": 10.656320571899414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 8,
+        "fp32_acc": 95.97,
+        "best_val_acc": 95.97,
+        "final_val_acc": 95.97,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6795904017984867,
+          "cpu_latency_ms": 10.149619862204418,
+          "peak_memory_mb": 193.53369140625,
+          "throughput_gpu": 15163.182385286518,
+          "quantized_size_mb": 10.656320571899414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 8,
+        "fp32_acc": 95.97,
+        "best_val_acc": 95.97,
+        "final_val_acc": 95.97,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6840191960334778,
+          "cpu_latency_ms": 10.376809572335333,
+          "peak_memory_mb": 104.92919921875,
+          "throughput_gpu": 15083.450379508728,
+          "quantized_size_mb": 10.656320571899414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 8,
+        "fp32_acc": 95.97,
+        "best_val_acc": 95.97,
+        "final_val_acc": 95.97,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6752512000501156,
+          "cpu_latency_ms": 10.188418993493542,
+          "peak_memory_mb": 148.2314453125,
+          "throughput_gpu": 15059.783268926334,
+          "quantized_size_mb": 10.656320571899414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 95.97,
+      "std": 0.0,
+      "values": [
+        95.97,
+        95.97,
+        95.97,
+        95.97,
+        95.97
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet18_cifar10_int4": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar10",
+      "bits": 4
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 4,
+        "fp32_acc": 95.97,
+        "best_val_acc": 94.7,
+        "final_val_acc": 94.7,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6846592001616955,
+          "cpu_latency_ms": 10.400142055004835,
+          "peak_memory_mb": 192.03369140625,
+          "throughput_gpu": 15011.072300375032,
+          "quantized_size_mb": 5.328160285949707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 4,
+        "fp32_acc": 95.97,
+        "best_val_acc": 94.7,
+        "final_val_acc": 94.7,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6880128033459186,
+          "cpu_latency_ms": 10.097907594172284,
+          "peak_memory_mb": 235.2109375,
+          "throughput_gpu": 15131.43663105978,
+          "quantized_size_mb": 5.328160285949707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 4,
+        "fp32_acc": 95.97,
+        "best_val_acc": 94.7,
+        "final_val_acc": 94.7,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6864640034735203,
+          "cpu_latency_ms": 10.529362130910158,
+          "peak_memory_mb": 278.13818359375,
+          "throughput_gpu": 15031.993891618607,
+          "quantized_size_mb": 5.328160285949707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 4,
+        "fp32_acc": 95.97,
+        "best_val_acc": 94.7,
+        "final_val_acc": 94.7,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6876160025596618,
+          "cpu_latency_ms": 10.378025704994798,
+          "peak_memory_mb": 320.8154296875,
+          "throughput_gpu": 15004.470923789384,
+          "quantized_size_mb": 5.328160285949707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 4,
+        "fp32_acc": 95.97,
+        "best_val_acc": 94.7,
+        "final_val_acc": 94.7,
+        "profile": {
+          "total_params": 11173962,
+          "total_params_m": 11.173962,
+          "trainable_params": 11173962,
+          "model_size_mb": 42.70130443572998,
+          "flops": 557782026,
+          "flops_m": 557.782026,
+          "gpu_latency_ms": 0.6913151986896992,
+          "cpu_latency_ms": 10.334427381167188,
+          "peak_memory_mb": 104.67919921875,
+          "throughput_gpu": 14959.677089764755,
+          "quantized_size_mb": 5.328160285949707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 94.7,
+      "std": 0.0,
+      "values": [
+        94.7,
+        94.7,
+        94.7,
+        94.7,
+        94.7
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet18_cifar100_int8": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar100",
+      "bits": 8
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 8,
+        "fp32_acc": 82.35,
+        "best_val_acc": 82.25,
+        "final_val_acc": 82.25,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6951807983219623,
+          "cpu_latency_ms": 10.125634289579466,
+          "peak_memory_mb": 147.4580078125,
+          "throughput_gpu": 15007.340189708173,
+          "quantized_size_mb": 10.70035171508789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 8,
+        "fp32_acc": 82.35,
+        "best_val_acc": 82.25,
+        "final_val_acc": 82.25,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.684723199903965,
+          "cpu_latency_ms": 10.175820934819058,
+          "peak_memory_mb": 191.06103515625,
+          "throughput_gpu": 15026.465413217707,
+          "quantized_size_mb": 10.70035171508789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 8,
+        "fp32_acc": 82.35,
+        "best_val_acc": 82.25,
+        "final_val_acc": 82.25,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6916608020663262,
+          "cpu_latency_ms": 10.360880376538262,
+          "peak_memory_mb": 234.1640625,
+          "throughput_gpu": 14941.094912924862,
+          "quantized_size_mb": 10.70035171508789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 8,
+        "fp32_acc": 82.35,
+        "best_val_acc": 82.25,
+        "final_val_acc": 82.25,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6973183996975422,
+          "cpu_latency_ms": 10.390879411716014,
+          "peak_memory_mb": 277.26708984375,
+          "throughput_gpu": 15073.595705348525,
+          "quantized_size_mb": 10.70035171508789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 8,
+        "fp32_acc": 82.35,
+        "best_val_acc": 82.25,
+        "final_val_acc": 82.25,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6854911975562572,
+          "cpu_latency_ms": 10.247888043522835,
+          "peak_memory_mb": 320.1201171875,
+          "throughput_gpu": 14950.62031428754,
+          "quantized_size_mb": 10.70035171508789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 82.25,
+      "std": 0.0,
+      "values": [
+        82.25,
+        82.25,
+        82.25,
+        82.25,
+        82.25
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet18_cifar100_int4": {
+    "config": {
+      "model": "resnet18",
+      "dataset": "cifar100",
+      "bits": 4
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 4,
+        "fp32_acc": 82.35,
+        "best_val_acc": 79.94,
+        "final_val_acc": 79.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6934143967926503,
+          "cpu_latency_ms": 10.254701104713604,
+          "peak_memory_mb": 105.03076171875,
+          "throughput_gpu": 14998.628385980419,
+          "quantized_size_mb": 5.350175857543945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 4,
+        "fp32_acc": 82.35,
+        "best_val_acc": 79.94,
+        "final_val_acc": 79.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6950143955647945,
+          "cpu_latency_ms": 10.675308265490457,
+          "peak_memory_mb": 147.8837890625,
+          "throughput_gpu": 14956.964951354395,
+          "quantized_size_mb": 5.350175857543945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 4,
+        "fp32_acc": 82.35,
+        "best_val_acc": 79.94,
+        "final_val_acc": 79.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6825471997261048,
+          "cpu_latency_ms": 10.202245350228623,
+          "peak_memory_mb": 190.98681640625,
+          "throughput_gpu": 14953.308985368863,
+          "quantized_size_mb": 5.350175857543945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 4,
+        "fp32_acc": 82.35,
+        "best_val_acc": 79.94,
+        "final_val_acc": 79.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6874112010002136,
+          "cpu_latency_ms": 10.234211222268641,
+          "peak_memory_mb": 234.08984375,
+          "throughput_gpu": 14959.936165280542,
+          "quantized_size_mb": 5.350175857543945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 4,
+        "fp32_acc": 82.35,
+        "best_val_acc": 79.94,
+        "final_val_acc": 79.94,
+        "profile": {
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.692492800205946,
+          "cpu_latency_ms": 10.122731851879507,
+          "peak_memory_mb": 277.19287109375,
+          "throughput_gpu": 15028.589903148717,
+          "quantized_size_mb": 5.350175857543945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 79.94,
+      "std": 0.0,
+      "values": [
+        79.94,
+        79.94,
+        79.94,
+        79.94,
+        79.94
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet50_cifar10_int8": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar10",
+      "bits": 8
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 8,
+        "fp32_acc": 97.31,
+        "best_val_acc": 97.3,
+        "final_val_acc": 97.3,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.04523518383503,
+          "cpu_latency_ms": 26.42557630315423,
+          "peak_memory_mb": 205.84033203125,
+          "throughput_gpu": 4597.9142670126885,
+          "quantized_size_mb": 22.431222915649414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 8,
+        "fp32_acc": 97.31,
+        "best_val_acc": 97.3,
+        "final_val_acc": 97.3,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0618752002716065,
+          "cpu_latency_ms": 26.823716412764043,
+          "peak_memory_mb": 298.80126953125,
+          "throughput_gpu": 4610.051292668019,
+          "quantized_size_mb": 22.431222915649414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 8,
+        "fp32_acc": 97.31,
+        "best_val_acc": 97.3,
+        "final_val_acc": 97.3,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0434431970119475,
+          "cpu_latency_ms": 26.705601514549926,
+          "peak_memory_mb": 299.05126953125,
+          "throughput_gpu": 4612.56186939671,
+          "quantized_size_mb": 22.431222915649414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 8,
+        "fp32_acc": 97.31,
+        "best_val_acc": 97.3,
+        "final_val_acc": 97.3,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0637311905622484,
+          "cpu_latency_ms": 27.487362414831296,
+          "peak_memory_mb": 392.76220703125,
+          "throughput_gpu": 4597.584988019333,
+          "quantized_size_mb": 22.431222915649414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 8,
+        "fp32_acc": 97.31,
+        "best_val_acc": 97.3,
+        "final_val_acc": 97.3,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.068223994970322,
+          "cpu_latency_ms": 26.817394100362435,
+          "peak_memory_mb": 486.22314453125,
+          "throughput_gpu": 4602.519591294985,
+          "quantized_size_mb": 22.431222915649414,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 97.3,
+      "std": 0.0,
+      "values": [
+        97.3,
+        97.3,
+        97.3,
+        97.3,
+        97.3
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet50_cifar10_int4": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar10",
+      "bits": 4
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 4,
+        "fp32_acc": 97.31,
+        "best_val_acc": 96.88,
+        "final_val_acc": 96.88,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.05239038169384,
+          "cpu_latency_ms": 27.542136172996834,
+          "peak_memory_mb": 392.76220703125,
+          "throughput_gpu": 4602.105115850838,
+          "quantized_size_mb": 11.215611457824707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 4,
+        "fp32_acc": 97.31,
+        "best_val_acc": 96.88,
+        "final_val_acc": 96.88,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.061299207806587,
+          "cpu_latency_ms": 27.365505666239187,
+          "peak_memory_mb": 485.97314453125,
+          "throughput_gpu": 4606.059494214604,
+          "quantized_size_mb": 11.215611457824707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 4,
+        "fp32_acc": 97.31,
+        "best_val_acc": 96.88,
+        "final_val_acc": 96.88,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.074483197927475,
+          "cpu_latency_ms": 26.7006155627314,
+          "peak_memory_mb": 395.76220703125,
+          "throughput_gpu": 4607.278254117041,
+          "quantized_size_mb": 11.215611457824707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 4,
+        "fp32_acc": 97.31,
+        "best_val_acc": 96.88,
+        "final_val_acc": 96.88,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.062271997332573,
+          "cpu_latency_ms": 27.04751884448342,
+          "peak_memory_mb": 487.22314453125,
+          "throughput_gpu": 4599.47757925161,
+          "quantized_size_mb": 11.215611457824707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 4,
+        "fp32_acc": 97.31,
+        "best_val_acc": 96.88,
+        "final_val_acc": 96.88,
+        "profile": {
+          "total_params": 23520842,
+          "total_params_m": 23.520842,
+          "trainable_params": 23520842,
+          "model_size_mb": 90.02937984466553,
+          "flops": 1310642186,
+          "flops_m": 1310.642186,
+          "gpu_latency_ms": 2.0897536158561705,
+          "cpu_latency_ms": 27.113128075143322,
+          "peak_memory_mb": 578.68408203125,
+          "throughput_gpu": 4588.22910353022,
+          "quantized_size_mb": 11.215611457824707,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 96.88,
+      "std": 0.0,
+      "values": [
+        96.88,
+        96.88,
+        96.88,
+        96.88,
+        96.88
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet50_cifar100_int8": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar100",
+      "bits": 8
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 8,
+        "fp32_acc": 84.36,
+        "best_val_acc": 84.42,
+        "final_val_acc": 84.42,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0351487904787064,
+          "cpu_latency_ms": 26.95386848063208,
+          "peak_memory_mb": 488.62939453125,
+          "throughput_gpu": 4599.775947867404,
+          "quantized_size_mb": 22.60708999633789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 8,
+        "fp32_acc": 84.36,
+        "best_val_acc": 84.42,
+        "final_val_acc": 84.42,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.065702387690544,
+          "cpu_latency_ms": 26.916009257547557,
+          "peak_memory_mb": 582.54345703125,
+          "throughput_gpu": 4604.994392684306,
+          "quantized_size_mb": 22.60708999633789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 8,
+        "fp32_acc": 84.36,
+        "best_val_acc": 84.42,
+        "final_val_acc": 84.42,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0430080026388167,
+          "cpu_latency_ms": 27.16290531679988,
+          "peak_memory_mb": 492.12939453125,
+          "throughput_gpu": 4599.45831004039,
+          "quantized_size_mb": 22.60708999633789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 8,
+        "fp32_acc": 84.36,
+        "best_val_acc": 84.42,
+        "final_val_acc": 84.42,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0314752131700518,
+          "cpu_latency_ms": 26.94397300365381,
+          "peak_memory_mb": 582.79345703125,
+          "throughput_gpu": 4611.660672807989,
+          "quantized_size_mb": 22.60708999633789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 8,
+        "fp32_acc": 84.36,
+        "best_val_acc": 84.42,
+        "final_val_acc": 84.42,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.070937606692314,
+          "cpu_latency_ms": 26.81296123773791,
+          "peak_memory_mb": 489.87939453125,
+          "throughput_gpu": 4611.039310687825,
+          "quantized_size_mb": 22.60708999633789,
+          "compression_ratio_vs_fp32": 4.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 84.42,
+      "std": 0.0,
+      "values": [
+        84.42,
+        84.42,
+        84.42,
+        84.42,
+        84.42
+      ],
+      "n_seeds": 5
+    }
+  },
+  "quant_resnet50_cifar100_int4": {
+    "config": {
+      "model": "resnet50",
+      "dataset": "cifar100",
+      "bits": 4
+    },
+    "per_seed": [
+      {
+        "seed": 3,
+        "bits": 4,
+        "fp32_acc": 84.36,
+        "best_val_acc": 82.31,
+        "final_val_acc": 82.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.053759989142418,
+          "cpu_latency_ms": 27.52307031187229,
+          "peak_memory_mb": 584.04345703125,
+          "throughput_gpu": 4597.97982555625,
+          "quantized_size_mb": 11.303544998168945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 7,
+        "bits": 4,
+        "fp32_acc": 84.36,
+        "best_val_acc": 82.31,
+        "final_val_acc": 82.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0651264071464537,
+          "cpu_latency_ms": 27.124579704832286,
+          "peak_memory_mb": 675.95751953125,
+          "throughput_gpu": 4596.654521450332,
+          "quantized_size_mb": 11.303544998168945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 11,
+        "bits": 4,
+        "fp32_acc": 84.36,
+        "best_val_acc": 82.31,
+        "final_val_acc": 82.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.072179192304611,
+          "cpu_latency_ms": 26.94059206987731,
+          "peak_memory_mb": 583.04345703125,
+          "throughput_gpu": 4599.100451675359,
+          "quantized_size_mb": 11.303544998168945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 42,
+        "bits": 4,
+        "fp32_acc": 84.36,
+        "best_val_acc": 82.31,
+        "final_val_acc": 82.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.0657024055719377,
+          "cpu_latency_ms": 28.661772259511054,
+          "peak_memory_mb": 676.95751953125,
+          "throughput_gpu": 4600.31865358584,
+          "quantized_size_mb": 11.303544998168945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      },
+      {
+        "seed": 123,
+        "bits": 4,
+        "fp32_acc": 84.36,
+        "best_val_acc": 82.31,
+        "final_val_acc": 82.31,
+        "profile": {
+          "total_params": 23705252,
+          "total_params_m": 23.705252,
+          "trainable_params": 23705252,
+          "model_size_mb": 90.73287105560303,
+          "flops": 1310826596,
+          "flops_m": 1310.826596,
+          "gpu_latency_ms": 2.1228671938180925,
+          "cpu_latency_ms": 26.67630379437469,
+          "peak_memory_mb": 583.29345703125,
+          "throughput_gpu": 4605.666085319217,
+          "quantized_size_mb": 11.303544998168945,
+          "compression_ratio_vs_fp32": 8.0
+        }
+      }
+    ],
+    "accuracy": {
+      "mean": 82.31,
+      "std": 0.0,
+      "values": [
+        82.31,
+        82.31,
+        82.31,
+        82.31,
+        82.31
+      ],
+      "n_seeds": 5
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "fresh": [
+    {
+      "seed": 42,
+      "final_val_acc": 80.42,
+      "stage_profiles": [
+        {
+          "stage": "original",
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.641932800412178,
+          "cpu_latency_ms": 12.385721827740781,
+          "peak_memory_mb": 105.65576171875,
+          "throughput_gpu": 7418.796390632491
+        },
+        {
+          "stage": "stage_1",
+          "rank_ratio": 0.8,
+          "val_acc": 82.58,
+          "total_params": 9258836,
+          "total_params_m": 9.258836,
+          "trainable_params": 9258836,
+          "model_size_mb": 35.406622886657715,
+          "flops": 472536020,
+          "flops_m": 472.53602,
+          "gpu_latency_ms": 1.621516799926758,
+          "cpu_latency_ms": 11.930024993489496,
+          "peak_memory_mb": 227.876953125,
+          "throughput_gpu": 4995.7236019986
+        },
+        {
+          "stage": "stage_2",
+          "rank_ratio": 0.4,
+          "val_acc": 80.76,
+          "total_params": 3012187,
+          "total_params_m": 3.012187,
+          "trainable_params": 3012187,
+          "model_size_mb": 11.577521324157715,
+          "flops": 178270564,
+          "flops_m": 178.270564,
+          "gpu_latency_ms": 1.1077375918626786,
+          "cpu_latency_ms": 4.469471241463907,
+          "peak_memory_mb": 210.11572265625,
+          "throughput_gpu": 7837.614371643421
+        },
+        {
+          "stage": "stage_3",
+          "rank_ratio": 0.36,
+          "val_acc": 80.42,
+          "total_params": 2590821,
+          "total_params_m": 2.590821,
+          "trainable_params": 2590821,
+          "model_size_mb": 9.970160484313965,
+          "flops": 159256164,
+          "flops_m": 159.256164,
+          "gpu_latency_ms": 0.86536960080266,
+          "cpu_latency_ms": 3.8336104771587998,
+          "peak_memory_mb": 219.70947265625,
+          "throughput_gpu": 8630.542396556102
+        }
+      ]
+    },
+    {
+      "seed": 123,
+      "final_val_acc": 80.7,
+      "stage_profiles": [
+        {
+          "stage": "original",
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6044800013303757,
+          "cpu_latency_ms": 11.471724457805976,
+          "peak_memory_mb": 114.0888671875,
+          "throughput_gpu": 7064.609575475449
+        },
+        {
+          "stage": "stage_1",
+          "rank_ratio": 0.8,
+          "val_acc": 82.29,
+          "total_params": 9258836,
+          "total_params_m": 9.258836,
+          "trainable_params": 9258836,
+          "model_size_mb": 35.406622886657715,
+          "flops": 472536020,
+          "flops_m": 472.53602,
+          "gpu_latency_ms": 1.5399424016475678,
+          "cpu_latency_ms": 10.88100862398278,
+          "peak_memory_mb": 226.46484375,
+          "throughput_gpu": 4824.762832239482
+        },
+        {
+          "stage": "stage_2",
+          "rank_ratio": 0.4,
+          "val_acc": 80.85,
+          "total_params": 3012187,
+          "total_params_m": 3.012187,
+          "trainable_params": 3012187,
+          "model_size_mb": 11.577521324157715,
+          "flops": 178270564,
+          "flops_m": 178.270564,
+          "gpu_latency_ms": 1.1008640065789224,
+          "cpu_latency_ms": 4.4310913945082575,
+          "peak_memory_mb": 210.08544921875,
+          "throughput_gpu": 7890.065191494927
+        },
+        {
+          "stage": "stage_3",
+          "rank_ratio": 0.36,
+          "val_acc": 80.7,
+          "total_params": 2590821,
+          "total_params_m": 2.590821,
+          "trainable_params": 2590821,
+          "model_size_mb": 9.970160484313965,
+          "flops": 159256164,
+          "flops_m": 159.256164,
+          "gpu_latency_ms": 0.8774656012654305,
+          "cpu_latency_ms": 4.161416756687686,
+          "peak_memory_mb": 218.36767578125,
+          "throughput_gpu": 8927.511114279097
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "final_val_acc": 80.24,
+      "stage_profiles": [
+        {
+          "stage": "original",
+          "total_params": 11220132,
+          "total_params_m": 11.220132,
+          "trainable_params": 11220132,
+          "model_size_mb": 42.87745189666748,
+          "flops": 557828196,
+          "flops_m": 557.828196,
+          "gpu_latency_ms": 0.6698496028780937,
+          "cpu_latency_ms": 10.494587942957878,
+          "peak_memory_mb": 159.69189453125,
+          "throughput_gpu": 15110.240606305146
+        },
+        {
+          "stage": "stage_1",
+          "rank_ratio": 0.8,
+          "val_acc": 82.18,
+          "total_params": 9258836,
+          "total_params_m": 9.258836,
+          "trainable_params": 9258836,
+          "model_size_mb": 35.406622886657715,
+          "flops": 472536020,
+          "flops_m": 472.53602,
+          "gpu_latency_ms": 1.6382975995540618,
+          "cpu_latency_ms": 9.620804179576226,
+          "peak_memory_mb": 271.8212890625,
+          "throughput_gpu": 10688.316545896076
+        },
+        {
+          "stage": "stage_2",
+          "rank_ratio": 0.4,
+          "val_acc": 81.01,
+          "total_params": 3012187,
+          "total_params_m": 3.012187,
+          "trainable_params": 3012187,
+          "model_size_mb": 11.577521324157715,
+          "flops": 178270564,
+          "flops_m": 178.270564,
+          "gpu_latency_ms": 1.2446848005056381,
+          "cpu_latency_ms": 4.552685582893901,
+          "peak_memory_mb": 255.0302734375,
+          "throughput_gpu": 14341.525226478874
+        },
+        {
+          "stage": "stage_3",
+          "rank_ratio": 0.36,
+          "val_acc": 80.24,
+          "total_params": 2590821,
+          "total_params_m": 2.590821,
+          "trainable_params": 2590821,
+          "model_size_mb": 9.970160484313965,
+          "flops": 159256164,
+          "flops_m": 159.256164,
+          "gpu_latency_ms": 1.593267197906971,
+          "cpu_latency_ms": 6.496614631032571,
+          "peak_memory_mb": 264.5146484375,
+          "throughput_gpu": 18054.114066136975
+        }
+      ]
+    }
+  ],
+  "redecompose": [
+    {
+      "seed": 42,
+      "final_val_acc": 61.01,
+      "stages": [
+        {
+          "stage": 1,
+          "ratio": 0.8,
+          "val_acc": 82.57,
+          "params_m": 9.258836
+        },
+        {
+          "stage": 2,
+          "ratio": 0.4,
+          "val_acc": 68.2,
+          "params_m": 3.974639
+        },
+        {
+          "stage": 3,
+          "ratio": 0.3,
+          "val_acc": 61.01,
+          "params_m": 2.843868
+        }
+      ]
+    },
+    {
+      "seed": 123,
+      "final_val_acc": 61.07,
+      "stages": [
+        {
+          "stage": 1,
+          "ratio": 0.8,
+          "val_acc": 82.51,
+          "params_m": 9.258836
+        },
+        {
+          "stage": 2,
+          "ratio": 0.4,
+          "val_acc": 68.5,
+          "params_m": 3.974639
+        },
+        {
+          "stage": 3,
+          "ratio": 0.3,
+          "val_acc": 61.07,
+          "params_m": 2.843868
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "final_val_acc": 61.41,
+      "stages": [
+        {
+          "stage": 1,
+          "ratio": 0.8,
+          "val_acc": 82.15,
+          "params_m": 9.258836
+        },
+        {
+          "stage": 2,
+          "ratio": 0.4,
+          "val_acc": 68.65,
+          "params_m": 3.974639
+        },
+        {
+          "stage": 3,
+          "ratio": 0.3,
+          "val_acc": 61.41,
+          "params_m": 2.843868
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "fresh": {
+      "mean": 80.45333333333333,
+      "std": 0.18926759422104827,
+      "values": [
+        80.42,
+        80.7,
+        80.24
+      ]
+    },
+    "redecompose": {
+      "mean": 61.163333333333334,
+      "std": 0.1761312641816377,
+      "values": [
+        61.01,
+        61.07,
+        61.41
+      ]
+    },
+    "delta": 19.29
+  }
+}

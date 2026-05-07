@@ -1,0 +1,155 @@
+{
+  "oneshot_resnet18_imagenet100": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_tucker",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 3.780756151230246,
+        "best_val_acc": 78.55571114222845,
+        "final_val_acc": 78.49569913982796,
+        "params_m": 2.0045,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 3.780756151230246,
+        "best_val_acc": 78.69573914782957,
+        "final_val_acc": 78.69573914782957,
+        "params_m": 2.0045,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 3.780756151230246,
+        "best_val_acc": 78.75575115023004,
+        "final_val_acc": 78.75575115023004,
+        "params_m": 2.0045,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 78.66906714676269,
+      "std": 0.08381546369258018,
+      "values": [
+        78.55571114222845,
+        78.69573914782957,
+        78.75575115023004
+      ],
+      "n_seeds": 3
+    }
+  },
+  "rsid_resnet18_imagenet100": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_tucker",
+        "teacher_acc": 83.75675135027005,
+        "best_val_acc": 81.95639127825565,
+        "final_val_acc": 76.53530706141228,
+        "params_m": 2.0045,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "teacher_acc": 83.75675135027005,
+        "best_val_acc": 81.95639127825565,
+        "final_val_acc": 76.23524704940988,
+        "params_m": 2.0045,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "teacher_acc": 83.75675135027005,
+        "best_val_acc": 82.4764952990598,
+        "final_val_acc": 75.95519103820764,
+        "params_m": 2.0045,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 82.12975928519036,
+      "std": 0.24517938668867134,
+      "values": [
+        81.95639127825565,
+        81.95639127825565,
+        82.4764952990598
+      ],
+      "n_seeds": 3
+    }
+  },
+  "struct_resnet18_imagenet100": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "structured_prune",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 2.1004200840168035,
+        "prune_ratio": 0.5,
+        "best_val_acc": 75.95519103820764,
+        "final_val_acc": 75.95519103820764,
+        "total_params": 11227812,
+        "effective_params": 4164516,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "structured_prune",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 2.1004200840168035,
+        "prune_ratio": 0.5,
+        "best_val_acc": 76.05521104220844,
+        "final_val_acc": 76.05521104220844,
+        "total_params": 11227812,
+        "effective_params": 4164516,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "structured_prune",
+        "teacher_acc": 83.75675135027005,
+        "pre_ft_acc": 2.1004200840168035,
+        "prune_ratio": 0.5,
+        "best_val_acc": 76.0752150430086,
+        "final_val_acc": 75.99519903980796,
+        "total_params": 11227812,
+        "effective_params": 4164516,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 76.02853904114157,
+      "std": 0.05250388660406361,
+      "values": [
+        75.95519103820764,
+        76.05521104220844,
+        76.0752150430086
+      ],
+      "n_seeds": 3
+    }
+  }
+}

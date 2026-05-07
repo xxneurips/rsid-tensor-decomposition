@@ -1,0 +1,177 @@
+{
+  "oneshot_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 54.87,
+        "final_val_acc": 52.828,
+        "params_m": 2.4662,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 55.012,
+        "final_val_acc": 52.596,
+        "params_m": 2.4662,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 54.948,
+        "final_val_acc": 52.602,
+        "params_m": 2.4662,
+        "epochs": 5
+      },
+      {
+        "seed": 42,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 53.608,
+        "final_val_acc": 48.616,
+        "params_m": 2.4662,
+        "epochs": 5
+      },
+      {
+        "seed": 123,
+        "method": "oneshot_tucker",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.286,
+        "best_val_acc": 54.172,
+        "final_val_acc": 48.696,
+        "params_m": 2.4662,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 54.522000000000006,
+      "std": 0.6124899999183674,
+      "values": [
+        54.87,
+        55.012,
+        54.948,
+        53.608,
+        54.172
+      ],
+      "n_seeds": 5
+    }
+  },
+  "rsid_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "rsid_tucker",
+        "teacher_acc": 69.758,
+        "best_val_acc": 64.558,
+        "final_val_acc": 58.734,
+        "params_m": 2.4662,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 7,
+        "method": "rsid_tucker",
+        "teacher_acc": 69.758,
+        "best_val_acc": 64.716,
+        "final_val_acc": 58.922,
+        "params_m": 2.4662,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_tucker",
+        "teacher_acc": 69.758,
+        "best_val_acc": 64.554,
+        "final_val_acc": 58.724,
+        "params_m": 2.4662,
+        "epochs_per_stage": 2,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 64.60933333333334,
+      "std": 0.07544239892497331,
+      "values": [
+        64.558,
+        64.716,
+        64.554
+      ],
+      "n_seeds": 3
+    }
+  },
+  "struct_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 3,
+        "method": "structured_prune",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.112,
+        "prune_ratio": 0.5,
+        "best_val_acc": 48.008,
+        "final_val_acc": 48.008,
+        "total_params": 11689512,
+        "effective_params": 4626216,
+        "epochs": 5
+      },
+      {
+        "seed": 7,
+        "method": "structured_prune",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.112,
+        "prune_ratio": 0.5,
+        "best_val_acc": 48.032,
+        "final_val_acc": 48.032,
+        "total_params": 11689512,
+        "effective_params": 4626216,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "structured_prune",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.112,
+        "prune_ratio": 0.5,
+        "best_val_acc": 47.928,
+        "final_val_acc": 47.928,
+        "total_params": 11689512,
+        "effective_params": 4626216,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 47.98933333333333,
+      "std": 0.044462218668088686,
+      "values": [
+        48.008,
+        48.032,
+        47.928
+      ],
+      "n_seeds": 3
+    }
+  }
+}

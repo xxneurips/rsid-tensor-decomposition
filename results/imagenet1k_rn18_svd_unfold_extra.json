@@ -1,0 +1,170 @@
+{
+  "oneshot_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 7,
+        "method": "oneshot_svd_unfold",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.608,
+        "best_val_acc": 57.918,
+        "final_val_acc": 53.314,
+        "params_m": 4.448936,
+        "epochs": 5
+      },
+      {
+        "seed": 11,
+        "method": "oneshot_svd_unfold",
+        "teacher_acc": 69.758,
+        "pre_ft_acc": 0.608,
+        "best_val_acc": 58.212,
+        "final_val_acc": 53.308,
+        "params_m": 4.448936,
+        "epochs": 5
+      }
+    ],
+    "accuracy": {
+      "mean": 58.065,
+      "std": 0.14700000000000202,
+      "values": [
+        57.918,
+        58.212
+      ],
+      "n_seeds": 2
+    }
+  },
+  "rsid_resnet18_imagenet": {
+    "per_seed": [
+      {
+        "seed": 7,
+        "method": "rsid_svd_unfold",
+        "teacher_acc": 69.758,
+        "best_val_acc": 65.386,
+        "final_val_acc": 63.636,
+        "final_stage_best_val_acc": 63.636,
+        "final_stage_final_val_acc": 63.636,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              65.044,
+              61.786,
+              59.952,
+              59.452,
+              59.456
+            ],
+            "best_val_acc": 65.044,
+            "final_val_acc": 59.456,
+            "params": 7855144
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              63.644,
+              63.606,
+              64.374,
+              64.82,
+              65.386
+            ],
+            "best_val_acc": 65.386,
+            "final_val_acc": 65.386,
+            "params": 5877480
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              60.102,
+              61.266,
+              62.19,
+              63.18,
+              63.636
+            ],
+            "best_val_acc": 63.636,
+            "final_val_acc": 63.636,
+            "params": 4448936
+          }
+        ],
+        "params_m": 4.448936,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      },
+      {
+        "seed": 11,
+        "method": "rsid_svd_unfold",
+        "teacher_acc": 69.758,
+        "best_val_acc": 65.552,
+        "final_val_acc": 63.806,
+        "final_stage_best_val_acc": 63.806,
+        "final_stage_final_val_acc": 63.806,
+        "per_stage_val": [
+          {
+            "stage": 1,
+            "rank_ratio": 0.5768998281229634,
+            "val_acc_per_epoch": [
+              64.804,
+              62.344,
+              60.032,
+              59.378,
+              59.462
+            ],
+            "best_val_acc": 64.804,
+            "final_val_acc": 59.462,
+            "params": 7855144
+          },
+          {
+            "stage": 2,
+            "rank_ratio": 0.41601676461038084,
+            "val_acc_per_epoch": [
+              63.544,
+              63.696,
+              64.402,
+              65.006,
+              65.552
+            ],
+            "best_val_acc": 65.552,
+            "final_val_acc": 65.552,
+            "params": 5877480
+          },
+          {
+            "stage": 3,
+            "rank_ratio": 0.3,
+            "val_acc_per_epoch": [
+              60.304,
+              61.626,
+              62.294,
+              63.1,
+              63.806
+            ],
+            "best_val_acc": 63.806,
+            "final_val_acc": 63.806,
+            "params": 4448936
+          }
+        ],
+        "params_m": 4.448936,
+        "epochs_per_stage": 5,
+        "n_stages": 3,
+        "schedule": [
+          0.5768998281229634,
+          0.41601676461038084,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": {
+      "mean": 65.469,
+      "std": 0.08300000000000551,
+      "values": [
+        65.386,
+        65.552
+      ],
+      "n_seeds": 2
+    }
+  }
+}
